@@ -1,0 +1,126 @@
+@font-face {
+    font-family: 'Space Grotesk Medium';
+    src: url('fonts/SpaceGrotesk-Medium.ttf');
+}
+
+@font-face {
+    font-family: 'Space Grotesk Bold';
+    src: url('fonts/SpaceGrotesk-Bold.ttf');
+}
+
+@font-face {
+    font-family: 'Space Grotesk Regular';
+    src: url('fonts/SpaceGrotesk-Regular.ttf');
+}
+
+@font-face {
+    font-family: 'Space Grotesk SemiBold';
+    src: url('fonts/SpaceGrotesk-SemiBold.ttf');
+}
+
+@font-face {
+    font-family: 'Space Grotesk Light';
+    src: url('fonts/SpaceGrotesk-Light.ttf');
+}
+
+body {
+    margin: 0;
+    overflow: hidden;
+}
+
+h1 {
+    color: white;
+    font-family: 'Space Grotesk Bold';
+}
+
+h3 {
+    color: white;
+    font-family: 'Space Grotesk Medium';
+}
+
+p {
+    color: white;
+    font-family: 'Space Grotesk Regular';
+    text-align: center;
+}
+
+video {
+    z-index: -1;
+    width: 100%;
+    position: absolute;
+    filter: grayscale(100%)
+}
+
+#headline {
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#headline-2 {
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+#headline-2 p {
+    width: 50%;
+}
+
+#esa-logo {
+    width: 5%;
+    position: absolute;
+}
+
+#esa-logo img {
+    padding-left: 50px;
+    padding-top: 50px;
+    width: 100%;
+}
+
+#main-menu {
+    display: none;
+}
+
+#main-menu-1 {
+    position: absolute;
+    width: 100%;
+    z-index: 0;
+    top: 0;
+}
+
+#main-menu-2 {
+    position: absolute;
+    width: 100%;
+    transform: translateY(100px);
+    top: 0;
+    z-index: 2;
+}
+
+#main-menu-content {
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#main-menu-list {
+    color: white;
+    position: relative;
+    z-index: 1;
+    list-style: none;
+    text-align: center;
+}
+
+#main-menu-list li {
+    color: white;
+}
+
+.fade-out {
+    opacity: 0;
+    transition: opacity .5s ease-out;
+}
+
