@@ -126,21 +126,3 @@ video {
     opacity: 0;
     transition: opacity .5s ease-out;
 }
-
-@media (max-width: 768px) {
-    video {
-        width: 500%;
-    }
-
-    #main-menu-2 {
-        width: 80%;
-    }
-
-    #content-1 {
-        width: 100%;
-    }
-
-    #main-menu-3 {
-        width: 80%;
-    }
-}
