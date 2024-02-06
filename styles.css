@@ -50,7 +50,10 @@ video {
     z-index: -1;
     width: 100%;
     position: absolute;
-    filter: grayscale(100%)
+    filter: grayscale(100%);
+    object-fit: cover;
+    width: 100vw; /* 100% of the viewport width */
+    height: 100vh; /* 100% of the viewport height */
 }
 
 #headline {
