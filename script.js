@@ -2,6 +2,7 @@ const content1 = document.getElementById('content-1')
 const content2 = document.getElementById('content-2')
 const content3 = document.getElementById('content-3')
 const content4 = document.getElementById('content-4')
+const content5 = document.getElementById('content-5')
 
 const domBody = document.body
 
@@ -26,7 +27,11 @@ domBody.addEventListener('click', function() {
     } else if (clickCounter == 3) {
         currentContent = content3;
         nextContent = content4;
+    } else if (clickCounter == 4) {
+        currentContent = content4;
+        nextContent = content5;
     }
+    
 
     if (currentContent) {
         currentContent.classList.add('fade-out');
